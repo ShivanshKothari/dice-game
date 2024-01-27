@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700;800;900&family=Pixelify+Sans:wght@400;500;600;700&display=swap');
+
+body {
+    background-color: #ec6462;
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+#hero {
+    text-align: center;
+}
+
+#dieContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+h1 {
+    font-size: xxx-large;
+}
+
+.dice {
+    display: inline-block;
+    background-image: url("../img/1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 15rem;
+    width: 15rem;
+    margin: 1rem;
+}

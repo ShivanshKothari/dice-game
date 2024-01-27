@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>The Dice Wars</title>
+</head>
+<body>
+    <section id="hero">
+        <h1>The Dice Wars</h1>
+        <h2 id="winAnnounce"></h2>
+        <h2 id="statusBoard">Roll Your Dice to Play</h2>
+        <div id="dieContainer">
+            <div>
+                <div class="dice" id="diceOne" onclick="rollDice(1)"></div>
+                <h3>Player 1</h3>
+            </div>
+            <div>
+                <div class="dice" id="diceTwo" onclick="rollDice(2)"></div>
+                <h3>Player 2</h3>
+            </div>
+        </div>
+    </section>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

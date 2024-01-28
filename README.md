@@ -26,6 +26,9 @@ The game allows two players to take turns rolling dice, and the winner is decide
 
 No installation is required. Simply open the HTML file (`index.html`) in a web browser to play the game.
 
+- or
+**Visit [The Dice Wars](https://shivanshkothari.github.io/dice-game)**
+
 ## Contributing
 
 Contributions to improve the game or fix issues are welcome. If you have any suggestions or find any bugs, feel free to open an issue or submit a pull request.
